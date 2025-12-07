@@ -1,4 +1,4 @@
-django==1.7.1
+django==4.2.27
 django-picklefield
 dnslib
 wigle
@@ -6,3 +6,4 @@ netaddr
 requests
 protobuf==2.6.1
 #above requirements are for web interface only - also need scapy for sniffing
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
